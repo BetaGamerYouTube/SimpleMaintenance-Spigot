@@ -1,0 +1,11 @@
+name: SimpleMaintenance
+version: '${project.version}'
+main: de.ybeta.maintenancespigot.MaintenancePlugin
+authors: [yBeta]
+commands:
+  maintenance:
+    aliases:
+      - wartungsarbeiten
+      - wartungen
+depend:
+  - ProtocolLib
